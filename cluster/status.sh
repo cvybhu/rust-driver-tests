@@ -1,0 +1,1 @@
+docker exec cluster_node1_1 nodetool status

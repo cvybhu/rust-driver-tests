@@ -1,0 +1,13 @@
+[package]
+name = "connect_wait"
+version = "0.1.0"
+authors = ["user"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scylla = {path = "../../scylla-rust-driver/scylla"}
+tokio = { version = "1.1.0", features = ["full"] }
+tracing = "0.1.25"
+tracing-subscriber = "0.2.16"

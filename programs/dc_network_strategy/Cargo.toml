@@ -1,0 +1,13 @@
+[package]
+name = "dc_network_strategy"
+version = "0.1.0"
+authors = ["user"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scylla = {path = "../../scylla-rust-driver/scylla"}
+tokio = { version = "1.1.0", features = ["full"] }
+rand = "0.8.3"
+tracing-subscriber = "0.2.16"

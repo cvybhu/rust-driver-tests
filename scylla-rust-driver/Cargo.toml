@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "examples",
+    "scylla",
+    "scylla-macros",
+]
